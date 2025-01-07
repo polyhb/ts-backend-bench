@@ -1,0 +1,30 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "lint": "eslint ./src --max-warnings 0 --fix"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^9.4.0",
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "@hono/typebox-validator": "^0.3.0",
+    "@hono/zod-openapi": "^0.18.3",
+    "@hono/zod-validator": "^0.4.2",
+    "@scalar/fastify-api-reference": "^1.25.99",
+    "@scalar/hono-api-reference": "^0.5.165",
+    "@sinclair/typebox": "^0.34.13",
+    "fastify": "^5.2.0",
+    "zod": "^3.24.1",
+    "zod-openapi": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.17.0"
+  }
+}

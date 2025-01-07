@@ -1,0 +1,29 @@
+{
+  "name": "express-zod-api",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "lint": "eslint ./src --max-warnings 0 --fix"
+  },
+  "dependencies": {
+    "@scalar/express-api-reference": "^0.4.173",
+    "@sinclair/typebox": "^0.34.13",
+    "express": "^5",
+    "express-zod-api": "^21.8.0",
+    "http-errors": "^2.0.0",
+    "typescript": "^5.7.2",
+    "zod": "^3.24.1",
+    "zod-openapi": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5",
+    "@types/http-errors": "^2.0.4",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.17.0"
+  }
+}

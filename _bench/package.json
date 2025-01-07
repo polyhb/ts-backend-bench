@@ -1,0 +1,19 @@
+{
+  "name": "autocannon",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "bun src/index.ts",
+    "lint": "eslint ./src --max-warnings 0 --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/autocannon": "^7.12.5",
+    "@types/bun": "^1.1.14",
+    "autocannon": "^8.0.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.17.0"
+  }
+}

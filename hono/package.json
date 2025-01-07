@@ -1,0 +1,27 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "lint": "eslint ./src --max-warnings 0 --fix"
+  },
+  "dependencies": {
+    "@hono/typebox-validator": "^0.3.0",
+    "@hono/zod-openapi": "^0.18.3",
+    "@hono/zod-validator": "^0.4.2",
+    "@scalar/hono-api-reference": "^0.5.165",
+    "@sinclair/typebox": "^0.34.13",
+    "hono": "^4.6.14",
+    "hono-openapi": "^0.3.0",
+    "zod": "^3.24.1",
+    "zod-openapi": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.17.0"
+  }
+}

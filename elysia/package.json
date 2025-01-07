@@ -1,0 +1,23 @@
+{
+  "name": "elysia",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "lint": "eslint ./src --max-warnings 0 --fix"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^1.2.0",
+    "@elysiajs/swagger": "^1.2.0",
+    "@scalar/hono-api-reference": "^0.5.165",
+    "@sinclair/typebox": "^0.34.13",
+    "elysia": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.17.0"
+  }
+}
